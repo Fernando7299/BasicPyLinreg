@@ -10,9 +10,9 @@ No, la NASA no me ha financiado, por eso es que el código está muy mal optimiz
 * [Cómo usar](https://github.com/Fernando7299/Linreg#c%C3%B3mo-usar)
 * [Crea tu propio ejecutable](https://github.com/Fernando7299/Linreg#crea-tu-propio-ejecutable)
   * [Problemas comunes al crear el ejecutable](https://github.com/Fernando7299/Linreg#problemas-comunes-al-crear-un-ejecutable)
-  * [tarda mucho tiempo en ejecutarse](https://github.com/Fernando7299/Linreg#tarda-mucho-tiempo-en-ejecutarse)
-  * [Windows me salta una alerta de seguridad](https://github.com/Fernando7299/Linreg#tarda-mucho-tiempo-en-ejecutarse)
-  * [El programa no se ejecuta después de compilar](https://github.com/Fernando7299/Linreg#el-programa-no-se-ejecuta-despu%C3%A9s-de-compilar)
+    * [tarda mucho tiempo en ejecutarse](https://github.com/Fernando7299/Linreg#tarda-mucho-tiempo-en-ejecutarse)
+    * [Windows me salta una alerta de seguridad](https://github.com/Fernando7299/Linreg#tarda-mucho-tiempo-en-ejecutarse)
+    * [El programa no se ejecuta después de compilar](https://github.com/Fernando7299/Linreg#el-programa-no-se-ejecuta-despu%C3%A9s-de-compilar)
 
 
 ## Requisitos
