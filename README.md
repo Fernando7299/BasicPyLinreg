@@ -42,7 +42,7 @@ pyinstaller --onefile main.py
 El archivo que llega a salir tardará mucho tiempo en ejecutarse, recuerda que en ese archivo están todas las librerías
 
 #### Windows me salta una alerta de seguridad
-Como no tengo una firma registrada en Windows, es normal, además; tú mismo puedes revisar el código fuente para ver que nadie está robando tus datos. ¿Quién quiere tu historial de navegación si usas el modo incognito?
+Como no tengo una firma registrada en Windows, es normal, además; tú mismo puedes revisar el código fuente para ver que nadie está robando tus datos. ¿Quién quiere tu historial de navegación del modo incognito?
 
 #### El programa no se ejecuta después de compilar
 Lo siento, para este tipo de problemas, deberías ir a la página de [PyInstaller](https://www.pyinstaller.org/)
