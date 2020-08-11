@@ -363,7 +363,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Venta Principal (version de prueba)"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Linreg v.0.1.0"))
         self.Importar.setText(_translate("MainWindow", "Importar "))
         self.label.setText(_translate("MainWindow", "Eje X"))
         self.label_2.setText(_translate("MainWindow", "Eje Y"))
