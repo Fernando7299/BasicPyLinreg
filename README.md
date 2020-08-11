@@ -4,6 +4,16 @@ Un programa muy simple escrito en Python para realizar una regresión lineal a d
 No, la NASA no me ha financiado, por eso es que el código está muy mal optimizado, qué esperaban de 23 horas seguidas de desarrollo sin dormir y con la mayoría del código copiado de Dios sabe donde, en fin.
 
 ![](ventana.png)
+![](ventana2.png)
+
+* [Requisitos](https://github.com/Fernando7299/Linreg#requisitos)
+* [Cómo usar](https://github.com/Fernando7299/Linreg#c%C3%B3mo-usar)
+* [Crea tu propio ejecutable](https://github.com/Fernando7299/Linreg#crea-tu-propio-ejecutable)
+  * [Problemas comunes al crear el ejecutable](https://github.com/Fernando7299/Linreg#problemas-comunes-al-crear-un-ejecutable)
+  * [tarda mucho tiempo en ejecutarse](https://github.com/Fernando7299/Linreg#tarda-mucho-tiempo-en-ejecutarse)
+  * [Windows me salta una alerta de seguridad](https://github.com/Fernando7299/Linreg#tarda-mucho-tiempo-en-ejecutarse)
+  * [El programa no se ejecuta después de compilar](https://github.com/Fernando7299/Linreg#el-programa-no-se-ejecuta-despu%C3%A9s-de-compilar)
+
 
 ## Requisitos
 Puedes usar pip (pip3) o conda para su instalación.
