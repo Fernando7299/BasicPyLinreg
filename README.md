@@ -27,6 +27,10 @@ Ejecutalo como cualquier script de Python
 ```bash
 python main.py
 ```
+En algunas distribuciones quizá debas usar
+```bash
+python3 main.py
+```
 La verdad, todo está en la pantalla, no creo que te pierdas.
 En la carpeta "Archivos de prueba", hay nada más y nada menos que... archivos de prueba.
 
