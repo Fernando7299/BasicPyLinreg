@@ -31,9 +31,14 @@ Debes tener instalado pyinstaller
 ```bash
 pip install pyinstaller
 ```
-Cambia a la carpeta donde tengas los archivos y ejecuta:
+Clona este repositorio
 ```bash
-pyinstaller --noconsole main.py
+git clone https://github.com/Fernando7299/BasicPyLinreg.git
+```
+Cambia a la carpeta donde tengas los archivos y crea el ejecutale:
+```bash
+cd BasicPyLinreg
+pyinstaller -F main.py
 ```
 Para tener una compilación más custom, revisa la [documentación](https://www.pyinstaller.org/documentation.html) de PyInstaller 
 
