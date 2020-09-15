@@ -23,7 +23,11 @@ Puedes usar pip (pip3) o conda para su instalación.
 - xlrd --> 1.2.0
 - PyQt5 --> 5.15.0
 ## Cómo usar
-La verdad, todo esá en la pantalla, no creo que te pierdas.
+Ejecutalo como cualquier script de Python
+```bash
+python main.py
+```
+La verdad, todo está en la pantalla, no creo que te pierdas.
 En la carpeta "Archivos de prueba", hay nada más y nada menos que... archivos de prueba.
 
 ## Crea tu propio ejecutable
@@ -40,7 +44,7 @@ Cambia a la carpeta donde tengas los archivos y crea el ejecutale:
 cd BasicPyLinreg
 pyinstaller -F main.py
 ```
-Para tener una compilación más custom, revisa la [documentación](https://www.pyinstaller.org/documentation.html) de PyInstaller 
+Para tener una compilación más personalizada, revisa la [documentación](https://www.pyinstaller.org/documentation.html) de PyInstaller 
 
 Para evitar errores al momento de momento de crear el ejecutable, es necesario que los requisitos estén en las versiones mencionadas anteriormente. Para instalar una versión específica de cada paquete, se pueden instalar de la siguiente manera:
 ```bash
