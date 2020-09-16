@@ -5,12 +5,11 @@ License:      Apache License 2.0
 
 
 import sys
-import PyQt5
 
 #Importar aquí las librerías a utilizar
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
+import pandas as pd     # Librería para leer datos desde un archivo
+import matplotlib.pyplot as plt     # Librería para graficar 
+import numpy as np      # Librería para extender funcionalidades
 ########################################
 from VentanaPrincipal import Ui_MainWindow
 #######################################
@@ -18,19 +17,22 @@ from VentanaPrincipal import Ui_MainWindow
 from PyQt5 import QtWidgets
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
+    """
+    Ventana Principal de la aplicación
+    """
     def __init__(self):
         QtWidgets.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
         
         ###
-        self.opcion = ["lineal","exponencial"]
+        self.opcion = ["lineal", "exponencial"]
         self.colores = ['black',    'silver',    'red',        'sienna',     'moccasin',          'gold',
           'orange',   'salmon',    'chartreuse', 'green',      'mediumspringgreen', 'lightseagreen',
          'darkcyan', 'royalblue', 'blue',       'blueviolet', 'purple',            'fuchsia',
            'pink',     'tan',       'olivedrab',  'tomato',     'yellow',            'turquoise']
         self.markers = ["o", "x"]
-        self.decod = { "UTF-8":"utf_8","UTF-16":"utf_16","UTF-16LE":"utf_16_le","UTF-16BE":"utf_16_be"}
+        self.decod = {"UTF-8":"utf_8", "UTF-16":"utf_16", "UTF-16LE":"utf_16_le", "UTF-16BE":"utf_16_be"}
         self.separ = {"comas" : ",", "tabulación" : "\t"}
         self.tipoGrafica = ["Graficar puntos y curva", "Graficar puntos", "Graficar curva"]
         ###
@@ -48,7 +50,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         
     
     def leerArchivo(self):
-        filePath, _ = QtWidgets.QFileDialog.getOpenFileName(self, 'Open file', '/')
+        filePath, _ = QtWidgets.QFileDialog.getOpenFileName(self, 'Open file', __file__)
         if filePath !="":
             self.ejeX.clear()
             self.ejeY.clear()
@@ -87,7 +89,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
                     #return
                     self.df = self.data.parse(self.pagina.currentText())
                 else:
-                    self.df = self.df = pd.read_csv(str(Ruta), sep = self.separ.get(self.separacion.currentText()), encoding = self.decod.get(self.decodificacion.currentText()))
+                    self.df = pd.read_csv(str(Ruta), sep = self.separ.get(self.separacion.currentText()), encoding = self.decod.get(self.decodificacion.currentText()))
                 
             self.ejeX.addItems(list(self.df.columns.values))
             self.ejeY.addItems(list(self.df.columns.values))
@@ -244,9 +246,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
     
 if __name__ == "__main__":
-    app =  QtWidgets.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
     window = MyApp()
     window.show()
     sys.exit(app.exec_())
-
-
