@@ -1,5 +1,5 @@
 # Linreg
-Un programa muy simple escrito en Python para realizar una regresión lineal a datos brindados por el usuario a travez de archivos de texto (.csv) o tablas de excel (.xlsx). 
+Un programa muy simple escrito en Python para realizar una regresión lineal a datos brindados por el usuario a travez de archivos de texto (.csv) en diferentes codificaciones o tablas de excel (.xlsx).  
 
 No, la NASA no me ha financiado, por eso es que el código está muy mal optimizado, qué esperaban de 23 horas seguidas de desarrollo sin dormir y con la mayoría del código copiado de Dios sabe donde, en fin.
 
